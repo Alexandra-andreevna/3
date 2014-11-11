@@ -18,21 +18,25 @@ d=b;
  {
   for (i=n; i<a; i++)
   {
+   j=l;
    arr[i][j]=k;
    k=k+1;
   };
   for (j=l; j<b; j++)
   {
+   i=n;
    arr[i][j]=k;
    k=k+1;
   };
   for (i=a; i>n; i--)
   {
+   j=b;
    arr[i][j]=k;
    k=k+1;
   };
   for (j=b; j>l; j--)
   {
+   i=a;
    arr[i][j]=k;
    k=k+1;
   };
@@ -41,7 +45,7 @@ d=b;
  n=n+1;
  l=l+1;
 }
- while (k!=m);
+ while (k>m);
 for (i=1; i<c; i++)
  {
  for (j=1; j<d; j++)
