@@ -16,12 +16,12 @@ d=b;
  k=1;
  do 
  {
-  for (i=1; i<a; i++)
+  for (i=n; i<a; i++)
   {
    arr[i][j]=k;
    k=k+1;
   };
-  for (j=1; j<b; j++)
+  for (j=l; j<b; j++)
   {
    arr[i][j]=k;
    k=k+1;
@@ -49,3 +49,4 @@ for (i=1; i<c; i++)
  cout<<endl;
 }
 }
+ 
